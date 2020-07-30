@@ -17,6 +17,9 @@
 	font-size: 22px; 
 	font-weight: 700
 }
+.navbar{
+	background-color: #8FBC8F
+}
 
 @media screen and (max-width: 800px){
 	.logotxt{
