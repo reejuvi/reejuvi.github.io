@@ -1,8 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-
 *{
-	font-family: 'Open Sans';
+	font-family: 'Open Sans'!important;
 }
 .nav-link{
 	color: white!important
@@ -17,4 +16,13 @@
 	color: white; 
 	font-size: 22px; 
 	font-weight: 700
+}
+
+@media screen and (max-width: 800px){
+	.logotxt{
+	 
+	font-size: 18px; 
+	font-weight: 500;
+	top: -1px;
+}
 }
