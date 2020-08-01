@@ -24,6 +24,9 @@ a{
 	color:#8FBC8F
 
 }
+.dark-grey-text{
+	text-align: left;
+}
 
 @media screen and (max-width: 800px){
 	.logotxt{
