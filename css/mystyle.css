@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
-*{
-	font-family: 'Open Sans';
+body{
+	font-family: 'Open Sans', sans-serif;
 }
 .nav-link{
 	color: white!important
