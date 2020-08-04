@@ -18,7 +18,12 @@ body{
 	font-weight: 700
 }
 .navbar{
-	background-color: #9932CC
+/* 	background-color: #9932CC */
+		
+		background: #9932CC;
+background: -moz-linear-gradient(#9932CC);
+background: -webkit-linear-gradient(#9932CC);
+background: -ms-linear-gradient(#9932CC);
 }
 a{
 	color:black
