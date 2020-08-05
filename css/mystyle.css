@@ -1,7 +1,8 @@
+
 @charset "utf-8";
 /* CSS Document */
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans';
 }
 .nav-link{
 	color: white!important
@@ -25,13 +26,36 @@ background: -moz-linear-gradient(#9932CC);
 background: -webkit-linear-gradient(#9932CC);
 background: -ms-linear-gradient(#9932CC);
 }
-a{
-	color:black
-
-}
 .dark-grey-text{
 	text-align: left;
 }
+a{
+	color:#8FBC8F
+
+}
+
+
+.search-form-wrapper {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px 205px;
+  margin-top: 55px;
+/*  background: url(/resources/images/misc/bg_search-open.png) right center no-repeat #f89d1c;*/
+}
+
+.search-form-wrapper.open {
+  display: block;
+}
+.searchbar1{
+	background-color: #9932CC;
+	color: white;
+	padding: 11px;
+	
+	
+}
+
 
 @media screen and (max-width: 800px){
 	.logotxt{
@@ -40,7 +64,19 @@ a{
 	font-weight: 500;
 	top: -1px;
 }
-	body{
-	font-family: 'Open Sans';
+	.fixed-top{
+		position: sticky;
+	}
+	.search-form-wrapper {
+
+  padding: 10px 45px;
+		 margin-top: 5px;
+
 }
+}
+
+@media screen and (min-width: 800px){
+	.search-form-wrapper {
+		position: fixed
+	}
 }
