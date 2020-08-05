@@ -86,6 +86,17 @@
 
      <ul class="navbar-nav ml-auto nav-flex-icons">
 			
+		<li class="navbar-collapse" id="navbar" >	
+      
+      
+        
+            <a href="#search" class="search-form-tigger nav-link waves-effect waves-light"  data-toggle="search-form"><i class="fa fa-search" aria-hidden="true" style="color: white; font-size: 26px"></i></a>
+        
+     
+      
+			</li>
+   
+			
 			
           <li class="nav-item">
             <a href="https://twitter.com/reejuvi" class="nav-link waves-effect waves-light">
@@ -105,11 +116,26 @@
           </li>
 
       </ul>
-
-      </div>
+		</div>
 
     </nav>
     <!-- Navbar -->
+	  
+	   
+ <div class="search-form-wrapper" style="z-index: 9999">
+   <form class="search-form" id="" action="">
+      <div class="input-group">
+         <input type="text" name="search" class="search form-control" placeholder="Search">
+         <span class="input-group-addon" id="basic-addon2" ><i class="fa fa-search searchbar1" aria-hidden="true" ></i>
+         </span>
+<!--
+         <span class="input-group-addon search-close" id="basic-addon2"><i class="fa fa-window-close fa-2x" aria-hidden="true"></i>
+         </span>
+-->
+      </div>
+   </form>
+</div>
+
 
   </header>
   <!-- Navigation -->
@@ -1311,6 +1337,37 @@ Moreover, the Envy x360 13 flaunts an excellent 13-inch touchscreen and a comfor
   <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="../../js/mdb.min.js"></script>
+	  
+	  
+	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="toggled-search-bar.js"></script>
+
+  <!-- Custom scripts -->
+  <script type="text/javascript">
+	  $(document).ready(function () {
+	$("[data-toggle=search-form]").click(function () {
+		$(".search-form-wrapper").toggleClass("open");
+		$(".search-form-wrapper .search").focus();
+		$("html").toggleClass("search-form-open");
+	});
+
+	$("[data-toggle=search-form-close]").click(function () {
+		$(".search-form-wrapper").removeClass("open");
+		$("html").removeClass("search-form-open");
+	});
+	$(".search-form-wrapper .search").keypress(function (event) {
+		if ($(this).val() == "Search") $(this).val("");
+	});
+
+	$(".search-close").click(function (event) {
+		$(".search-form-wrapper").removeClass("open");
+		$("html").removeClass("search-form-open");
+	});
+});
+
+  </script>
+	  
 
   <!-- Custom scripts -->
   <script type="text/javascript">
