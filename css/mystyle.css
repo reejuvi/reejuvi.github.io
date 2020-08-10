@@ -87,6 +87,9 @@ a{
   padding: 30px 405px;
  
 }
+	.intro1{
+		padding: 0px 120px
+	}
 	
 }
 @media screen and (max-width: 500px){
