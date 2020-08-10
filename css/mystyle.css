@@ -89,3 +89,8 @@ a{
 }
 	
 }
+@media screen and (max-width: 500px){
+	.hide-fb{
+		display: none
+	}
+}
