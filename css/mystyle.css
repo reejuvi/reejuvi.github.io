@@ -93,4 +93,7 @@ a{
 	.hide-fb{
 		display: none
 	}
+	.sbar{
+		margin-left: 10px
+	}
 }
