@@ -1,5 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
+
+
 @font-face {
   font-family: prometo;
   src: url( "../font/prometo/Prometo-Italic.woff");
@@ -18,18 +20,24 @@
 	position: absolute;
 	top: -3px;
 	margin-top: 22px; 
-	color: white; 
+	color: black; 
 	font-size: 22px; 
 	font-weight: 700
 }
 .nav1{
-	background-color: #9932CC
+	background-color: white;
+	color: Black
 }
 .nav2{
-	background-color: #3399CC;
+	background-color: black;
 	z-index: 9999; 
 	margin-top: 66px
 }
+/*
+.navbar-nav i{
+	color:black;
+}
+*/
 .dark-grey-text{
 	text-align: left;
 }
@@ -89,7 +97,20 @@ a{
 		position: fixed
 	}
 }
-
+@media screen and (min-width: 915px){
+	
+	.menu1{
+		margin-left: 85px;
+	}
+	.Banner{
+		padding-left: 118px;
+		padding-right: 118px
+	}
+	.sameline{
+		padding-left: 130px;
+		padding-right: 130px
+	}
+}
 
 @media screen and (max-width: 915px){
 
