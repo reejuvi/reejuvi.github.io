@@ -1,8 +1,7 @@
-
 @charset "utf-8";
 /* CSS Document */
-body{
-	font-family: 'Open Sans';
+*{
+/*	font-family: 'Open Sans';*/
 }
 .nav-link{
 	color: white!important
@@ -18,13 +17,13 @@ body{
 	font-size: 22px; 
 	font-weight: 700
 }
-.navbar{
-/* 	background-color: #9932CC */
-		
-		background: #9932CC;
-background: -moz-linear-gradient(#9932CC);
-background: -webkit-linear-gradient(#9932CC);
-background: -ms-linear-gradient(#9932CC);
+.nav1{
+	background-color: #9932CC
+}
+.nav2{
+	background-color: #3399CC;
+	z-index: 9999; 
+	margin-top: 66px
 }
 .dark-grey-text{
 	text-align: left;
@@ -33,7 +32,12 @@ a{
 	color:black
 
 }
-
+.grey-text a{
+	color:grey;
+}
+.grey-text a:hover{
+	color:#9932CC
+}
 
 .search-form-wrapper {
   display: none;
@@ -64,20 +68,35 @@ a{
 	font-weight: 500;
 	top: -1px;
 }
-	.fixed-top{
-		position: sticky;
-	}
+	
 	.search-form-wrapper {
 
   padding: 10px 45px;
 		 margin-top: 5px;
 
 }
+	
+
 }
 
 @media screen and (min-width: 800px){
 	.search-form-wrapper {
 		position: fixed
+	}
+}
+
+
+@media screen and (max-width: 915px){
+
+	.nav2{
+		margin-top: 50px;
+		
+	
+/*	display: hidden;*/
+/*		background-color: #9932CC*/
+}
+	.menu1{
+		margin-top: 20px;
 	}
 }
 
@@ -91,6 +110,7 @@ a{
 		padding: 0px 100px 0px 120px ;
 		margin-top: 100px
 	}
+	
 }
 @media screen and (max-width: 500px){
 	.hide-fb{
