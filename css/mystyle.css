@@ -110,6 +110,9 @@ a{
 		padding-left: 130px;
 		padding-right: 130px
 	}
+	.navbar-nav i{
+	font-size: 20px;
+}
 }
 
 @media screen and (max-width: 915px){
