@@ -29,7 +29,7 @@
 	color: Black
 }
 .nav2{
-	background-color: black;
+	background-color: #15a955;
 	z-index: 9999; 
 	margin-top: 66px
 }
@@ -130,6 +130,12 @@ a{
 }
 
 @media screen and (min-width: 1170px){
+	.shift{
+		padding-left: 43px
+	}
+	.shift2{
+		padding-left: 100px;
+	}
 	.search-form-wrapper {
   
   padding: 30px 405px;
