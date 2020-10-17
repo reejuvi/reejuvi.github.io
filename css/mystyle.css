@@ -29,9 +29,12 @@
 	color: Black
 }
 .nav2{
-	background-color: #15a955;
+	
 	z-index: 9999; 
 	margin-top: 66px
+}
+ .nav2,.btn-green1{
+	background-color: #6fb300;
 }
 /*
 .navbar-nav i{
