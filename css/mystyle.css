@@ -10,7 +10,9 @@
 .Banner-content{
 	padding: 0 140px;
 }
-
+.logo{
+		margin-left: 40px
+	}
 
 .nav-link{
 	color: white!important
