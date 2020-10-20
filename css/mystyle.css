@@ -7,6 +7,9 @@
   src: url( "../font/prometo/Prometo-Italic.woff");
 }
 
+.Banner-content{
+	padding: 0 140px;
+}
 
 
 .nav-link{
@@ -84,6 +87,7 @@ a{
 	font-weight: 500;
 	top: -1px;
 }
+
 	
 	.search-form-wrapper {
 
@@ -127,6 +131,10 @@ a{
 /*	display: hidden;*/
 /*		background-color: #9932CC*/
 }
+		.Banner-content{
+	padding: 0 50px;
+}
+	
 	.menu1{
 		margin-top: 20px;
 	}
