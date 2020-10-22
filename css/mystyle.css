@@ -138,12 +138,17 @@ a{
 	.navbar-nav i{
 	font-size: 20px;
 }
+	.nav2{
+	
+	z-index: 9999; 
+	margin-top: 66px
+}
 }
 
 @media screen and (max-width: 915px){
 
 	.nav2{
-		margin-top: 50px;
+		margin-top: 0px;
 		
 	
 /*	display: hidden;*/
@@ -154,7 +159,7 @@ a{
 }
 	
 	.menu1{
-		margin-top: 20px;
+		margin-top: 70px;
 	}
 	.p-remove{
 		padding: 0
