@@ -102,6 +102,11 @@ a{
 }
 
 
+
+.catmargin{
+	margin-top: 100px;
+}
+
 @media screen and (max-width: 800px){
 	.logotxt{
 	 
@@ -120,9 +125,15 @@ a{
 	.logo{
 		margin-left: 40px
 	}
+	.catmargin{
+	margin-top: 80px;
+}
 	
 
 }
+
+
+
 
 @media screen and (min-width: 800px){
 	.search-form-wrapper {
@@ -145,6 +156,10 @@ a{
 	.sameline1{
 		padding-left: 55px;
 		padding-right: 55px
+	}
+	.sameline3{
+		padding-left: 60px;
+		padding-right: 60px
 	}
 	.navbar-nav i{
 	font-size: 20px;
@@ -213,4 +228,8 @@ a{
 	.jarallax{
 		min-height: 400px!important;
 	}
+	
+		.catmargin{
+	margin-top: 50px;
+}
 }
