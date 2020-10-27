@@ -210,4 +210,7 @@ a{
 	.sbar{
 		margin-left: 10px
 	}
+	.jarallax{
+		min-height: 400px!important;
+	}
 }
