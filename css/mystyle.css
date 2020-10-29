@@ -6,7 +6,12 @@
   font-family: prometo;
   src: url( "../font/prometo/Prometo-Italic.woff");
 }
-
+  .divide{
+  height: 1px;
+  width: auto;
+  background-color:black;
+/*  border: solid 1px;*/
+}
 .Banner-content{
 	padding: 0 140px;
 }
@@ -129,6 +134,14 @@ a{
 	margin-top: 80px;
 }
 	
+/*
+	.blog-div{
+		border-bottom: 1px solid black;
+		
+		
+	}
+*/
+	
 
 }
 
@@ -138,6 +151,11 @@ a{
 @media screen and (min-width: 800px){
 	.search-form-wrapper {
 		position: fixed
+	}
+	.heading{
+		font-size: 30px;
+		font-weight:800;
+		
 	}
 }
 @media screen and (min-width: 915px){
