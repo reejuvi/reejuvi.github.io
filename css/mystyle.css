@@ -16,6 +16,13 @@
 	padding: 0 140px;
 }
 
+.mobile{
+	display: none;
+}
+.desktop{
+	display: block;
+}
+
   .line {
    width: 100%; 
    text-align: center; 
@@ -119,6 +126,13 @@ a{
 	font-weight: 800;
 	top: -1px;
 }
+	.mobile{
+		display: block;
+		
+	}
+	.desktop{
+		display: none
+	}
 
 	
 	.search-form-wrapper {
